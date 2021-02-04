@@ -1,0 +1,15 @@
+---
+application:
+  name: "blazer"
+  project: "voyager"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "blazer-db"
+  version: "11"
+routers:
+- name: "main-blazer"
+  routes:
+  - application_name: "blazer"
+    paths:
+    - "/*"
